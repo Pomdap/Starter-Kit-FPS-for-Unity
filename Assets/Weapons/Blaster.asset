@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0632fab020a199340b43cbef2bcc6582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  m_Model: {fileID: 6577402015695195831, guid: 66d15f602b3e9fa4bba85ab8e8dc4470, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_Rotation: {x: 0, y: 0, z: 0}
+  m_MuzzlePosition: {x: 0.1, y: -0.4, z: -1.5}
+  m_Cooldown: 0.25
+  m_MaxDistance: 10
+  m_Damage: 25
+  m_Spread: 1
+  m_ShotCount: 3
+  m_Knockback: 40
+  m_MinKnockback: {x: 0.025, y: 0.025}
+  m_MaxKnockback: {x: 0.045, y: 0.04}
+  m_SoundShoot: {fileID: 8300000, guid: 22b769901234427468399f7a8a4a97d8, type: 3}
+  m_Crosshair: {fileID: 21300000, guid: 42118b998eb6d8f4882a55f121c89b73, type: 3}
